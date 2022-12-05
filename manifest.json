@@ -12,7 +12,8 @@
     "content_scripts": [
         {
           "matches": ["https://www.amazon.in/*"],
-          "js": ["./price.js"]
+          "js": ["./price.js"],
+          "css": ["./price.css"]
         }
       ],
     "permissions" : ["activeTab","storage"]
