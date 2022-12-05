@@ -14,6 +14,11 @@
           "matches": ["https://www.amazon.in/*"],
           "js": ["./price.js"],
           "css": ["./price.css"]
+        },
+        {
+          "matches": ["https://www.flipkart.com/*"],
+          "js": ["./priceFlipkart.js"],
+          "css": ["./price.css"]
         }
       ],
     "permissions" : ["activeTab","storage"]
